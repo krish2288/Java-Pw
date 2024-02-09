@@ -1,3 +1,4 @@
+import java.util.Collection;
 import java.util.TreeSet;
 
 public class treeSet {
@@ -10,5 +11,9 @@ public class treeSet {
         ts.add(50);
         ts.add(40);
         System.out.println(ts);
+        ts.add(40);
+        // it not add reapeted
+        System.out.println(ts);
+
     }
 }

@@ -5,7 +5,7 @@ interface car1{
 }
 public class WithoutParameter {
     public static void main(String[] args) {
-        car obj= ()->System.out.println("Driving.......");
+        car1 obj= ()->System.out.println("Driving.......");
         obj.drive();
     }
 }
